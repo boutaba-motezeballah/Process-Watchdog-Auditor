@@ -1,4 +1,4 @@
-# 🐕 Advanced Process Watchdog Auditor & Hardware Forensic Core Framework
+#  Advanced Process Watchdog Auditor & Hardware Forensic Core Framework
 
 An enterprise-grade, low-overhead system monitoring utility and low-level volatile memory inspector written in native C. This framework interfaces directly with operating system structures, kernel subsystem abstraction layers, and management instrumentation subsystems (`WMIC`) to execute high-fidelity hardware capability tracking, application path auditing, and environment analysis while maintaining absolute operational security (OpSec).
 
@@ -136,7 +136,7 @@ C:\Windowsystem32vchost.exe                                svchost.exe          
 botaba_shell.exe                                               botaba_shell.exe           1105
 process_watchdog.exe                                           process_watchdog.exe       4444
 ======================================================================
- 🎓 WATCHDOG STATUS: MEGA DATA MATRIX COMPLETE | SECURE 100% 😍
+    WATCHDOG STATUS: MEGA DATA MATRIX COMPLETE | SECURE 100% 
 ======================================================================
 ```
 
