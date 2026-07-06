@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main() {
-    // [🛠️ Fix] تصحيح المسار وزيادة الفواصل النّقية للويندوز عشان يصب في مجلد reports ديريكت
+    // [🛠️ Fix] تصحيح المسار وزيادة الفواصل النّقية للويندوز reports
     char report_path[] = "..reportsscan_report.txt"; 
 
     printf("=========================================================\n");
@@ -11,8 +11,8 @@ int main() {
     printf("=========================================================\n");
     printf("[*] Scanning volatile system memory for active processes...\n\n");
 
-    // 1. فتح ملف التقرير والنقاء التام
-    FILE *report = fopen(report_path, "a"); // نفتحوه بـ "a" (Append) باش ما يمسحش التقرير السابق
+    // 1. فتح ملف التقرير 
+    FILE *report = fopen(report_path, "a"); // نفتحوه بـ "a" (Append) 
     if (report == NULL) {
         printf("[-] Central Error: Cannot access target reports directory!\n");
         return 1;
@@ -27,7 +27,7 @@ int main() {
     sprintf(cmd, "tasklist /FI \"STATUS eq RUNNING\" >> %s 2>&1", report_path);
     system(cmd);
 
-    // 3. قفل التقرير بـ الواجهة الفخمة تع الزعماء
+    // 3. قفل التقرير بـ الواجهة
     report = fopen(report_path, "a");
     if (report != NULL) {
         fprintf(report, "==================================================\n");
