@@ -7,7 +7,7 @@ int main() {
     const char report_path[] = "..\\reports\\scan_report.txt"; 
 
     printf("====================================================================\n");
-    printf(" PROCESS WATCHDOG AUDITOR | VOLATILE STATE DETERMINISTIC RUNTIME   \n");
+    printf("                         process-watchdog                           \n");
     printf("====================================================================\n");
     printf("[*] Querying dynamic system process tables for active tasks...\n\n");
 
