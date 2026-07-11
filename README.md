@@ -1,10 +1,10 @@
-#  Advanced Process Watchdog Auditor & Hardware Forensic Core Framework
+#  Advanced process-watchdog & Hardware Forensic Core Framework
 
 An enterprise-grade, low-overhead system monitoring utility and low-level volatile memory inspector written in native C. This framework interfaces directly with operating system structures, kernel subsystem abstraction layers, and management instrumentation subsystems (`WMIC`) to execute high-fidelity hardware capability tracking, application path auditing, and environment analysis while maintaining absolute operational security (OpSec).
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 1. [System Capabilities & Multi-Stage Architecture](#-system-capabilities--multi-stage-architecture)
 2. [Deep System Layout & How It Works Under the Hood](#-deep-system-layout--how-it-works-under-the-hood)
 3. [Compilation, Local Deployment & Operational Flags](#-compilation-local-deployment--operational-flags)
@@ -15,7 +15,7 @@ An enterprise-grade, low-overhead system monitoring utility and low-level volati
 
 ---
 
-## 🔍 System Capabilities & Multi-Stage Architecture
+##  System Capabilities & Multi-Stage Architecture
 
 The software pipeline isolates system metrics using a 5-tier architecture layer mapped inside the unmanaged memory partition:
 
@@ -27,7 +27,7 @@ The software pipeline isolates system metrics using a 5-tier architecture layer 
 
 ---
 
-## ⚙️ Deep System Layout & How It Works Under the Hood
+##  Deep System Layout & How It Works Under the Hood
 
 The architecture leverages native OS interfaces to aggregate system metrics directly from the kernel data grids, ensuring structured compilation without causing system latency:
 
@@ -42,7 +42,7 @@ The architecture leverages native OS interfaces to aggregate system metrics dire
 
 ---
 
-## 🚀 Compilation, Local Deployment & Operational Flags
+##  Compilation, Local Deployment & Operational Flags
 
 To register and run this auditing framework within your production environment, execute these sequential command steps in your dedicated Terminal workspace:
 
@@ -60,7 +60,7 @@ gcc process_watchdog.c -o process_watchdog.exe
 
 ---
 
-## 🛡️ Enterprise Defensive Use Cases & Deployment Scenarios
+##  Enterprise Defensive Use Cases & Deployment Scenarios
 
 This forensics monitor provides crucial technical insights across several endpoint defense operations:
 - **Malware Executable Mapping:** Flags unverified or suspicious background processes running out of temporary folders by displaying their absolute execution paths on disk (`C:\Windowsystem32\...`).
@@ -69,7 +69,7 @@ This forensics monitor provides crucial technical insights across several endpoi
 
 ---
 
-## 🎯 The Architecture Mission Statement
+##  The Architecture Mission Statement
 
 Most third-party diagnostic and monitoring utilities invoke heavy background services, consume massive memory blocks, and transmit private telemetry metrics back to unknown remote data clusters. 
 
@@ -77,7 +77,7 @@ This framework was engineered to provide a self-contained, zero-dependency diagn
 
 ---
 
-## 🔐 Security Containment Analysis & Evidence
+##  Security Containment Analysis & Evidence
 
 **Yes, the application layout operates under maximum system isolation principles.**
 
@@ -88,13 +88,13 @@ This framework was engineered to provide a self-contained, zero-dependency diagn
 
 ---
 
-## 📊 Comprehensive Forensic Audit Report (Obfuscated Sandbox Output)
+##  Comprehensive Forensic Audit Report (Obfuscated Sandbox Output)
 
 > [!IMPORTANT]
 > **OpSec Tracking Warning:** Serial hardware strings, network MAC layers, and active process tree nodes have been pseudo-anonymized (`XX-XX`) to guarantee secure infrastructure protection inside the public presentation layout.
 
 ```text
-🚨 MEGA-DATA ADVANCED FORENSIC SYSTEM REPORT | OPERATIONAL 100% 🚨
+ MEGA-DATA ADVANCED FORENSIC SYSTEM REPORT | OPERATIONAL 100% 
 ======================================================================
 [+] Enforced by Islam Botaba (isl_ambt) | Oued Sly Command Station 🥷
 ----------------------------------------------------------------------
